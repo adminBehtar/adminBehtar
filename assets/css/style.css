@@ -872,7 +872,7 @@ header {
 
 .login {
   width: 100%;
-  background-color: #34343B;
+  background-color: #2F3037;
   color: white;
   height: 400px;
 }
@@ -913,7 +913,7 @@ header {
 
 .left-side h3, .right-side h3 {
   font-family: Sailec-Bold;
-  font-size: 26px;
+  font-size: 23px;
   font-weight: bold;
   font-style: normal;
   font-stretch: normal;
@@ -930,14 +930,14 @@ header {
   background-color: #ffffff;
   border: solid 1px #979797;
   font-family: Sailec-Bold;
-  font-size: 1.8em;
+  font-size: 19px;
   font-weight: bold;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
   letter-spacing: 2.4px;
   text-align: center;
-  color: #34343B;
+  color: #2F3037;
   margin: 50px auto 300px;
   display: block;
   outline: none;
@@ -951,7 +951,7 @@ header {
 }
 
 .about blockquote{
-  color: #34343B;
+  color: #2F3037;
 }
 
 .who-we-are h3, .how-it-works h3{
@@ -974,7 +974,7 @@ header {
 }
 
 .who-we-are blockquote {
-  font-family: Chivo-Italic;
+  font-family: Chivo-Regular;
   font-size: 2em;
   font-weight: normal;
   font-style: italic;
@@ -990,7 +990,7 @@ header {
   height: 8px;
   object-fit: contain;
   border-radius: 6.5px;
-  background-color: #34343B;
+  background-color: #2F3037;
   margin: 50px auto;
   display: block;
 }
@@ -1052,7 +1052,7 @@ header {
 
 footer {
   width: 100%;
-  background-color: #34343B;
+  background-color: #2F3037;
   color: white;
 }
 
@@ -1132,7 +1132,7 @@ input{
   width:300px;
   border:none;
   border-bottom:4px solid #ffffff;
-  background:  #34343B;
+  background:  #2F3037;
 }
 input:focus     { outline:none; }
 
@@ -1212,4 +1212,8 @@ input:focus ~ .highlight {
 @keyframes inputHighlighter {
   from { background:#ffffff; }
   to  { width:0; background:transparent; }
+}
+
+.navbar-right a{
+  font-family: Chivo-Regular;
 }

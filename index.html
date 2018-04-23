@@ -25,6 +25,41 @@
         <link rel="stylesheet" href="assets/css/animate.min.css">
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="stylesheet" href="assets/css/normalize.css">
+
+            <style>
+                @font-face {
+                    font-family: Chivo-Black;
+                    src: url('fonts/Chivo-Black.otf');
+                }
+                @font-face {
+                    font-family: Chivo-Blackitalic;
+                    src: url('fonts/Chivo-BlackItalic.otf');
+                }
+                @font-face {
+                    font-family: Chivo-Bold;
+                    src: url('fonts/Chivo-Bold.otf');
+                }
+                @font-face {
+                    font-family: Chivo-Bolditalic;
+                    src: url('fonts/Chivo-BoldItalic.otf');
+                }
+                @font-face {
+                    font-family: Chivo-Regular;
+                    src: url('fonts/Chivo-Regular.ttf');
+                }
+                @font-face {
+                    font-family: Chivo-Italic;
+                    src: url('fonts/Chivo-Italic.otf');
+                }
+                @font-face {
+                    font-family: Chivo-LightItalic;
+                    src: url('fonts/Chivo-LightItalic.otf');
+                }
+                @font-face {
+                    font-family: Sailec-Bold;
+                    src: url('fonts/SailecBold.otf');
+                }
+            </style>
         
     </head>
   <body>
@@ -212,6 +247,21 @@
     <script src="js/wow.min.js"></script>
     <script>
       new WOW().init();
+    </script>
+    <script type="text/javascript">
+        
+        $(document).ready(function(){
+          $(window).scroll(function(){
+            var scroll = $(window).scrollTop();
+              if (scroll > 10) {
+                $(".mainNav").css("background" , "white");
+              }
+
+              else{
+                  $(".mainNav").css("background-color" , "transparent");   
+              }
+          })
+        })
     </script>
   </body>
 </html>
