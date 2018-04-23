@@ -154,7 +154,7 @@
         <div class="left-side">
           <h3>Login to BehtarPay</h3>
           <div class="textfield-group">
-            <input type="text" required>
+            <input type="text" id="panInput" required>
             <span class="highlight"></span>
             <span class="bar"></span>
             <label>PAN Number</label>
@@ -249,19 +249,27 @@
       new WOW().init();
     </script>
     <script type="text/javascript">
-        
-        $(document).ready(function(){
-          $(window).scroll(function(){
-            var scroll = $(window).scrollTop();
-              if (scroll > 10) {
-                $(".mainNav").css("background" , "white");
-              }
 
-              else{
-                  $(".mainNav").css("background-color" , "transparent");   
-              }
-          })
-        })
+        var input = document.getElementById("panInput");
+        input.addEventListener("keyup", function(event) {
+            event.preventDefault();
+            if (event.keyCode === 13) {
+                alert(" Could not find user. Please contact employer for onboarding or contact us.");
+            }
+        });
+        
+        // $(document).ready(function(){
+        //   $(window).scroll(function(){
+        //     var scroll = $(window).scrollTop();
+        //       if (scroll > 200) {
+        //         $("#mainNav").css("background-color" , "white");
+        //       }
+
+        //       else{
+        //           $("#mainNav").css("background-color" , "transparent");   
+        //       }
+        //   })
+        // })
     </script>
   </body>
 </html>
