@@ -16,7 +16,8 @@ License URI:http://www.gnu.org/licenses/gpl-2.0.html
 * ==========================================================================
 */
 #mainNav {
-  background-color: #9b977e;
+  background-color: #34343B;
+  opacity: 0.9;
 }
 .btn-primary{
   margin-left: 20px;
@@ -779,7 +780,7 @@ h1,h2,h3,h4,h5,h6 {
 header {
   width: 100%;
   height: 111px;
-  background-color: #9b977e;
+  background-color: #34343B;
   color: white;
 }
 
@@ -871,7 +872,7 @@ header {
 
 .login {
   width: 100%;
-  background-color: #9b977e;
+  background-color: #34343B;
   color: white;
   height: 400px;
 }
@@ -936,7 +937,7 @@ header {
   line-height: normal;
   letter-spacing: 2.4px;
   text-align: center;
-  color: #9b977e;
+  color: #34343B;
   margin: 50px auto 300px;
   display: block;
   outline: none;
@@ -950,7 +951,7 @@ header {
 }
 
 .about blockquote{
-  color: #9b977e;
+  color: #34343B;
 }
 
 .who-we-are h3, .how-it-works h3{
@@ -989,7 +990,7 @@ header {
   height: 8px;
   object-fit: contain;
   border-radius: 6.5px;
-  background-color: #9b977e;
+  background-color: #34343B;
   margin: 50px auto;
   display: block;
 }
@@ -1051,7 +1052,7 @@ header {
 
 footer {
   width: 100%;
-  background-color: #9b977e;
+  background-color: #34343B;
   color: white;
 }
 
@@ -1131,7 +1132,7 @@ input{
   width:300px;
   border:none;
   border-bottom:4px solid #ffffff;
-  background:  #9b977e;
+  background:  #34343B;
 }
 input:focus     { outline:none; }
 
